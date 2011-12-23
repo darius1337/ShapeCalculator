@@ -1,0 +1,43 @@
+<div id="add_new">
+    <h3>Add new coordinates</h3>    
+    <form id="AddCoordinateForm" method="post" action="#springUrl("/coordinates/add.do")" class="RegisterForm">
+    <table>
+        <tr>
+            <td><label for="x1">x1:</label></td>
+            <td><input type="text" name="x1" class="required" /></td>      
+        </tr>
+        <tr>
+            <td><label for="y1">y1:</label></td>
+            <td><input type="text" name="y1" class="required" /></td>      
+        </tr>
+        <tr>
+            <td><label for="x2">x2:</label></td>
+            <td><input type="text" name="x2" class="required" /></td>      
+        </tr>
+        <tr>
+            <td><label for="y2">y2:</label></td>
+            <td><input type="text" name="y2" class="required" /></td>      
+        </tr>
+        <tr>
+            <td><label for="x3">x3:</label></td>
+            <td><input type="text" name="x3" class="required"/></td>      
+        </tr>
+        <tr>
+            <td><label for="y3">y3:</label></td>
+            <td><input type="text" name="y3" class="required"/></td>      
+        </tr>
+        <tr>
+            <td><label for="x4">x4:</label></td>
+            <td><input type="text" name="x4" class="required"/></td>      
+        </tr>
+        <tr>
+            <td><label for="y4">y4:</label></td>
+            <td><input type="text" name="y4" class="required"/></td>      
+        </tr>
+        <tr>  
+            <td></td>
+            <td><input type="submit" value="submit" /></td>      
+        </tr>
+ </form> 
+
+</div>

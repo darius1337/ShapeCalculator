@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>WebMedia Task::ShapeCalculator</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="#springUrl("/css/style.css")" />
+	<script type="text/javascript" src="#springUrl("/js/jquery.js")"></script>
+	<script type="text/javascript" src="#springUrl("/js/jquery.validate.js")"></script>
+        <script type="text/javascript" src="#springUrl("/js/jquery.metadata.js")"></script>
+        <script type="text/javascript" src="#springUrl("/js/functions.js")"></script>
+
+
+</head>
+    <body>
+        <div id="container">
+            <div id="header">
+                #parse ("header.vm")
+            </div>
+            <div id="content">
+                $screen_content
+            </div>
+            <div id="footer">
+                #parse ("footer.vm")
+            </div>
+        </div>
+    </body>
+</html>

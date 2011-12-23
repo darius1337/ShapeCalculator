@@ -1,0 +1,38 @@
+<a id="new_coords" href="#springUrl("/coordinates/newCoordinate.do")">Add new coordinates</a>
+<form id="coordsForm" method="POST" action="#springUrl("/plane/info.do")">
+<div class="error"></div>
+   <table>
+    <tr>   
+        <th></th>
+        <th>id</th>
+        <th>x1</th>
+        <th>y1</th>
+        <th>x2</th>
+        <th>y2</th>
+        <th>x3</th>
+        <th>y3</th>
+        <th>x4</th>
+        <th>y4</th>  
+    </tr>
+#foreach( $coord in $coords )
+  <div class="coordinate">    
+     <tr>
+         <td><input type="radio" name="coordGroup" value="$coord.id" /></td>
+         <td>$coord.id</td>
+         <td>$coord.x1</td>
+         <td>$coord.y1</td>
+         <td>$coord.x2</td>
+         <td>$coord.y2</td>
+         <td>$coord.x3</td>
+         <td>$coord.y3</td>
+         <td>$coord.x4</td>
+         <td>$coord.y4</td>     
+     </tr>
+   </div>
+#end      
+    </table> 
+    <div id="CalculatorFormButton">
+        <input type="submit" name="submit" value="Calculate">
+    </div>
+</form>
+

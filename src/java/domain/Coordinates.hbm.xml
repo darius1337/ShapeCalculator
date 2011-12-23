@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 21, 2011 12:31:48 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+  <class catalog="projektas" name="domain.Coordinates" table="coordinates">
+    <id name="id" type="java.lang.Integer">
+      <column name="id"/>
+      <generator class="identity"/>
+    </id>
+    <property name="x1" type="double">
+      <column name="x1" not-null="true" precision="22" scale="0"/>
+    </property>
+    <property name="y1" type="double">
+      <column name="y1" not-null="true" precision="22" scale="0"/>
+    </property>
+    <property name="x2" type="double">
+      <column name="x2" not-null="true" precision="22" scale="0"/>
+    </property>
+    <property name="y2" type="double">
+      <column name="y2" not-null="true" precision="22" scale="0"/>
+    </property>
+    <property name="x3" type="double">
+      <column name="x3" not-null="true" precision="22" scale="0"/>
+    </property>
+    <property name="y3" type="double">
+      <column name="y3" not-null="true" precision="22" scale="0"/>
+    </property>
+    <property name="x4" type="double">
+      <column name="x4" not-null="true" precision="22" scale="0"/>
+    </property>
+    <property name="y4" type="double">
+      <column name="y4" not-null="true" precision="22" scale="0"/>
+    </property>
+  </class>
+</hibernate-mapping>

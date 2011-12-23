@@ -1,0 +1,7 @@
+<div id="plane_info"> 
+    <h3>Plane #$coords.id information </h3>
+     <div class="plane_desc">
+        <p>A plane ($coords.x1,$coords.y1), ($coords.x2,$coords.y2), ($coords.x3,$coords.y3), ($coords.x4,$coords.y4) 
+        contains <strong>$sqcount square(s)</strong><p>
+     </div> 
+</div>
